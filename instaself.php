@@ -1,5 +1,5 @@
 <?php 
-	$instagram_url = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=466623664.3c2726c.90dad036b2c54118984585174dcee0b3';
+	$instagram_url = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=ACCESS_TOKEN';
 	$instagram_json = file_get_contents($instagram_url);
 	$instagram_array = json_decode($instagram_json, true);
 ?>
