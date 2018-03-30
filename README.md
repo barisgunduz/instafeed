@@ -5,6 +5,6 @@ To register a new Instagram App, go to https://www.instagram.com/developer/clien
 
 With created app, take a new access token.
 
-From https://www.instagram.com/developer/endpoints/users/ use the endpoint https://api.instagram.com/v1/users/self/?access_token=ACCESS-TOKEN
+From https://www.instagram.com/developer/endpoints/users/ use the endpoint https://api.instagram.com/v1/users/self/media/recent/?access_token=ACCESS-TOKEN
 
 To create access token use https://api.instagram.com/oauth/authorize/?client_id=CLIENTID&redirect_uri=REDIRECT-URI&response_type=code&scope=SCOPE
